@@ -12,7 +12,7 @@ h1 {
 }
 
 p {
-    font-size: 70px;
+    font-size: 30px;
     font-weight: 400;
     padding: 30px;
     background: white;
@@ -20,7 +20,7 @@ p {
 
 .typeBox {
     text-align: center;
-    height: 400px;
+    height: 40px;
     background: aliceblue;
     
 }
@@ -28,13 +28,27 @@ p {
 .sL {
     font-size: 40px;
     font-weight: 100;
-    background: aliceblue;
+    background:  #9CE57F;
     padding: 20px;
 }
 
 .rank   {
     background: aliceblue;
-    height: 400px;
-    padding-top: 60px;
+    height: 80px;
+    font-size: 30px;
+   padding-top: 45px;
+    
 }
 
+.sTT {
+    background: aliceblue;
+    height: 30px;
+
+}
+
+.box {
+    background: black;
+    color: white;
+    height: 250px;
+    font-size: 30px;
+}
