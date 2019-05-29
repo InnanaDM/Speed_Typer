@@ -20,7 +20,7 @@ p {
     color: white;
 }
 
-.typeBox {
+.contain {
     text-align: center;
     height: 40px;
     /* background: aliceblue; */
@@ -29,10 +29,10 @@ p {
 
 .sL {
     font-size: 40px;
-    font-weight: 100;
+    font-weight: 900;
     background:  black;
     padding: 20px;
-    color: white;
+    color: red;
 }
 
 .rank   {
@@ -51,10 +51,11 @@ p {
 
 /* } */ 
 
+/* box where text to type appears */
 .box {
     background: black;
     color: white;
-    height: 250px;
+    height: 80px;
     font-size: 30px;
 }
 /* 
@@ -75,4 +76,26 @@ input {
     border-radius: 2px;
     outline-color: #9CE57F;
     border-color: #9CE57F;
+}
+
+.doneBut {
+    color: white;
+    height: 50px;
+    width: 75px;
+    font-size: 20px;
+    background: red;
+    border-radius: 12px;
+    margin: 12px;
+    font-weight: 700;
+    text-align: center;
+    outline: none;
+    border-color: red;
+}
+
+/* user text in this box */
+.typeHere {
+    color: white;
+    height: 80px;
+    font-size: 25px;
+    outline: none;
 }
