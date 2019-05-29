@@ -1,5 +1,5 @@
 * {
-    background-image: url("bub1.png");
+    background: black;
 }
 
 .head {
@@ -9,46 +9,70 @@
 h1 {
     font-size: 130px;
     font-weight: 900;
+    color: #9CE57F;
 }
 
 p {
     font-size: 30px;
     font-weight: 400;
     padding: 30px;
-    background: white;
+    /* background: white; */
+    color: white;
 }
 
 .typeBox {
     text-align: center;
     height: 40px;
-    background: aliceblue;
+    /* background: aliceblue; */
     
 }
 
 .sL {
     font-size: 40px;
     font-weight: 100;
-    background:  #9CE57F;
+    background:  black;
     padding: 20px;
+    color: white;
 }
 
 .rank   {
-    background: aliceblue;
+    /* background: aliceblue; */
     height: 80px;
     font-size: 30px;
    padding-top: 45px;
+   color: red;
     
 }
-
+/* 
 .sTT {
-    background: aliceblue;
-    height: 30px;
+    /* background: aliceblue; */
+    /* height: 50px;
+    color: rebeccapurple; */
 
-}
+/* } */ 
 
 .box {
     background: black;
     color: white;
     height: 250px;
     font-size: 30px;
+}
+/* 
+input {
+    color: white;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 2px;
+    
+} */
+
+.sBut {
+    color: white;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 2px;
+    outline-color: #9CE57F;
+    border-color: #9CE57F;
 }
