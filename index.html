@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset = "UTF-8">
+    <meta charset="UTF-8">
     <title>Speed Typer</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-<div class = "head">
-<h1>SPEED TYPER</h1>
+    <div class="head">
+        <h1>SPEED TYPER</h1>
 
-<p>Let's test your typing speed. <br> Do you think you have what it takes to be called a "Speed Typer"?</p>
-</div>
+        <p>Let's test your typing speed. <br> Do you think you have what it takes to be called a "Speed Typer"?</p>
+    </div>
 
-<div class = "typeBox">
-<form name = "typeForm"></form>
-<tr>
-<td>What's your skill level?</td>
-<td> <input type = "skill" value = "beginner" onClick = "level1()" checked>Beginner </td>
+    <div class="typeBox">
+        <form name="typeForm"></form>
+        <tr>
+            <td>
+                <p class="sL">What's your skill level?</p>
+            </td>
 
-</tr>
-</div>
+            <td align=center><input type=radio name="lvl" value="Beginner" onClick="s()" checked>Rookie
+                <input type=radio name="lvl" value="Novice" onClick="m()">Somewhat Fast
+                <input type=radio name="lvl" value="Expert" onClick="e()">SPEED TYPER</TD>
+
+        </tr>
+    </div>
 
 
     <script src="app.js"></script>
 </body>
+
 </html>
-
-
-
-
-

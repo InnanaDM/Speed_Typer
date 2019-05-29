@@ -7,17 +7,26 @@
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 100px;
     font-weight: 900;
 }
 
 p {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 400;
 }
 
 .typeBox {
     text-align: center;
-    height: 100px;
+    height: 400px;
+    background: aliceblue;
+    
+}
+
+.sL {
+    font-size: 30px;
+    font-weight: 100;
+    background: aliceblue;
+    padding: 20px;
 }
 
