@@ -7,13 +7,15 @@
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 130px;
     font-weight: 900;
 }
 
 p {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 400;
+    padding: 30px;
+    background: white;
 }
 
 .typeBox {
@@ -24,9 +26,15 @@ p {
 }
 
 .sL {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 100;
     background: aliceblue;
     padding: 20px;
+}
+
+.rank   {
+    background: aliceblue;
+    height: 400px;
+    padding-top: 60px;
 }
 
