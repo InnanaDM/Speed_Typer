@@ -94,7 +94,7 @@ input {
 
 /* user text in this box */
 .typeHere {
-    color: white;
+    color: red;
     height: 80px;
     font-size: 25px;
     outline: none;

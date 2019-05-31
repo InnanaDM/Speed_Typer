@@ -9,4 +9,21 @@ function s() {
     word = 10; 
 }
 
+var start = function() {
+    randNum = Math.floor((Math.random() * 10)) % 4;
+
+    msgType = msg[randNum];
+
+    day = new Date();
+
+    startType = day.getTime();
+
+    document.typeForm.given.value = msgType
+
+    document.typeForm.typed.focus();
+
+    document.typeForm.typed.select();
+
+}
+
 // "'I am' is the shortest complete sentence in the English language
