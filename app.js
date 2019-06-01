@@ -58,6 +58,12 @@ var stop() {
 
 
 
+else {
+    alert("You messed up, but typed at a speed of " + spd + " words per minute... Not good enough.")
+       }
+
+
+
 
 }
 
