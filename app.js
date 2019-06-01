@@ -29,21 +29,25 @@ function e() {
 
 
 var start = function() {
-    randNum = Math.floor((Math.random() * 10)) % 4;
+    console.log("run!");
 
-    msgType = msg[randNum];
+    randNum = Math.floor((Math.random() * 10)) % 4
+
+    msgType = msg[randNum]
 
     day = new Date();
 
     startType = day.getTime();
 
-    document.typeForm.given.value = msgType
+    document.typeForm.given.value = msgType;
 
     document.typeForm.typed.focus();
 
     document.typeForm.typed.select();
 
 }
+
+
 
 
 // ?COME UP WITH STOP LOGIC!
@@ -58,7 +62,7 @@ var stop = function() {
 
 totalTime = ((endType - startType) / 1000)
 spd = Math.round((word/totalTime) * 60)
-if (document.theForm.typed.value == document.theForm.given.value) {
+if (document.typeForm.typed.value == document.typeForm.given.value) {
 alert("\nYou typed a " + word + " word sentence in "
 + totalTime + " seconds, a speed of about " + spd + " words per minute!")
 }
@@ -70,11 +74,8 @@ else {
 
     alert("You messed up, but typed at a speed of " + spd + " words per minute... Not good enough.")
        }
-
-
-
-
 }
+
 
 
 
