@@ -56,12 +56,18 @@ var stop() {
 
 // !rand num, if else...
 
+totalTime = ((endType - startType) / 1000)
+spd = Math.round((word/totalTime) * 60)
+if (document.theForm.typed.value == document.theForm.given.value) {
+alert("\nYou typed a " + word + " word sentence in "
++ totalTime + " seconds, a speed of about " + spd + " words per minute!")
+}
 
 // *else logic understood, now if.............. >_<
 else {
 
-    console.log("READY, STOP!");
-    
+    console.log("READY!");
+
     alert("You messed up, but typed at a speed of " + spd + " words per minute... Not good enough.")
        }
 
