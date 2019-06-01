@@ -28,9 +28,6 @@ function e() {
 }
 
 
-
-
-
 var start = function() {
     randNum = Math.floor((Math.random() * 10)) % 4;
 
@@ -45,6 +42,18 @@ var start = function() {
     document.typeForm.typed.focus();
 
     document.typeForm.typed.select();
+
+}
+
+
+
+var stop() {
+    dayTwo = new Date();
+endType = dayTwo.getTime();
+
+
+
+
 
 }
 
