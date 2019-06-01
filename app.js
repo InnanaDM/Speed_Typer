@@ -47,7 +47,7 @@ var start = function() {
 
 
 // ?COME UP WITH STOP LOGIC!
-var stop() {
+var stop = function() {
 
     console.log("Ready!!");
 
@@ -75,6 +75,7 @@ else {
 
 
 }
+
 
 
 
