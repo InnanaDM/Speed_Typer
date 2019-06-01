@@ -46,15 +46,23 @@ var start = function() {
 }
 
 
-
+// ?COME UP WITH STOP LOGIC!
 var stop() {
-    dayTwo = new Date();
-endType = dayTwo.getTime();
 
+    console.log("Ready!!");
+
+    dayTwo = new Date();
+    endType = dayTwo.getTime();
+
+// !rand num, if else...
 
 
 
 
 }
+
+
+
+
 
 // "'I am' is the shortest complete sentence in the English language
